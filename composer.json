@@ -1,0 +1,24 @@
+{
+	"name": "cebe/yii2-statsd",
+	"description": "A statsd component for Yii 2 to collect profiling and other metrics",
+	"keywords": ["yii2", "statsd"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Carsten Brandt",
+			"email": "mail@cebe.cc"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/cebe/yii2-statsd/issues",
+		"irc": "irc://irc.freenode.net/yii",
+		"source": "https://github.com/cebe/yii2-statsd"
+	},
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": { "cebe\\statsd\\": "" }
+	}
+}
